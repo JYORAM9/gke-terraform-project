@@ -2,7 +2,7 @@
 data "google_client_config" "default" {}
 
 provider "google" {
-  credentials = keys
+  credentials = var.keys
 }
 
 
