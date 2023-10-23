@@ -91,6 +91,6 @@ module "gke" {
     ]
   }
   depends_on = [
-        module.gcp-network
-        ]
+    module.gcp-network
+  ]
 }
