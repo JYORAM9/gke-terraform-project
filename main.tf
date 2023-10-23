@@ -40,7 +40,7 @@ module "gke" {
       auto_upgrade    = true
       auto_repair     = true
       autoscaling     = true
-      service_account = "gke-terraform-project@${var.project_id}.iam.gserviceaccount.com"
+      service_account = "pratices-services-sa@${var.project_id}.iam.gserviceaccount.com"
     },
   ]
 
