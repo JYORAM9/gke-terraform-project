@@ -5,6 +5,13 @@ variable "project_id" {
   description = "The project ID to host the cluster in"
   default     = ""
 }
+
+variable "keys" {
+  type        = string
+  description = "The gcp creds"
+  default     = ""
+}
+
 variable "region" {
   type        = string
   description = "The region to host the cluster in"
@@ -15,7 +22,11 @@ variable "env_name" {
   description = "The environment for the GKE cluster"
   default     = "dev"
 }
-
+variable "credentials" {
+  type        = string
+  description = "The credentials to connect cluster"
+  default     = ""
+}
 ### Cluster variables
 variable "cluster_name" {
   type        = string

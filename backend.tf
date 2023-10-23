@@ -7,7 +7,7 @@
 
 terraform {
   cloud {
-    organization = "organization_name"
+    organization = "jyo"
 
     workspaces {
       name = "gke-terraform-project"
