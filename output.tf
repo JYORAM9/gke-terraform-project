@@ -2,6 +2,12 @@ output "cluster_id" {
   description = "Cluster ID"
   value       = module.gke.cluster_id
 }
+
+output "project_id" {
+  description = "Project id"
+  value       = module.gke.project_id
+}
+
 output "Cluster_name" {
   description = "Cluster name"
   value       = module.gke.name
