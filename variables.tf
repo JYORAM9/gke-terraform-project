@@ -6,7 +6,7 @@ variable "project_id" {
   default     = ""
 }
 
-variable "keys" {
+variable "google_credentials" {
   type        = string
   description = "The gcp creds"
   default     = ""

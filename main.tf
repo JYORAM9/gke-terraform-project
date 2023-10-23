@@ -2,7 +2,8 @@
 data "google_client_config" "default" {}
 
 provider "google" {
-  credentials = var.keys
+  credentials = var.google_credentials
+  project = var.project_id
 }
 
 
